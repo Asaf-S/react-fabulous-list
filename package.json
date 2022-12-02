@@ -15,7 +15,7 @@
     "task:eslint": "npx eslint --ignore-path .gitignore . --fix",
     "task:jest": "jest --forceExit",
     "test": "npm-run-all task:clean task:jest",
-    "release": "np",
+    "release": "np --no-2fa",
     "prepare": "npm run build && husky install",
     "prestart": "npm run build",
     "build": "npm-run-all task:clean task:eslint task:typescript task:static",
