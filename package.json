@@ -1,5 +1,5 @@
 {
-  "name": "NAME",
+  "name": "react-fabulous-list",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -22,16 +22,16 @@
     "start": "node -r source-map-support/register dist/demo.js"
   },
   "bugs": {
-    "url": "https://github.com/Asaf-S/NAME/issues"
+    "url": "https://github.com/Asaf-S/react-fabulous-list/issues"
   },
   "keywords": [
     "ENTER",
     "KEYWORDS"
   ],
-  "homepage": "https://github.com/Asaf-S/NAME#readme",
+  "homepage": "https://github.com/Asaf-S/react-fabulous-list#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Asaf-S/NAME.git"
+    "url": "git+https://github.com/Asaf-S/react-fabulous-list.git"
   },
   "author": "Asaf S.",
   "license": "MIT",
