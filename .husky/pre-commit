@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo --------- STARTING HUSKY HOOK ---------
+npx lint-staged
+npx eslint --ignore-path .gitignore . --fix
+npx cspell --no-summary --no-progress --relative "**/*"
+
+npx tsc
+npm run test
+echo --------- FINISHING HUSKY HOOK ---------
