@@ -2,8 +2,8 @@
   "name": "react-fabulous-list",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "files": [
     "dist/src/**/*",
     "!dist/src/demo*"
@@ -19,7 +19,7 @@
     "prepare": "npm run build && husky install",
     "prestart": "npm run build",
     "build": "npm-run-all task:clean task:eslint task:typescript task:static",
-    "start": "node -r source-map-support/register dist/demo.js"
+    "start": "node -r source-map-support/register dist/src/demo.js"
   },
   "bugs": {
     "url": "https://github.com/Asaf-S/react-fabulous-list/issues"
